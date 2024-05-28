@@ -165,16 +165,16 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \RequirePackage{titletoc}
 % 设置目录格式
 % 章节的目录格式
-\titlecontents{chapter}[0pt]{\vspace{2mm}\heiti\xiaosi}
+\titlecontents{chapter}[0pt]{\heiti\xiaosi\vspace{-2mm}}
 {\thecontentslabel\hskip.5em}{}{\titlerule*[0.5pc]{.}\contentspage}
 % 一级标题的目录格式
-\titlecontents{section}[30pt]{\heiti\wuhao}
+\titlecontents{section}[30pt]{\heiti\wuhao\vspace{-2mm}}
 {\thecontentslabel\hskip.5em}{}{\titlerule*[0.5pc]{.}\contentspage}
 % 二级标题的目录格式
-\titlecontents{subsection}[55pt]{\heiti\wuhao}
+\titlecontents{subsection}[55pt]{\heiti\wuhao\vspace{-2mm}}
 {\thecontentslabel\hskip.5em}{}{\titlerule*[0.5pc]{.}\contentspage}
 % 三级标题的目录格式
-\titlecontents{subsubsection}[55pt]{\heiti\wuhao}
+\titlecontents{subsubsection}[55pt]{\heiti\wuhao\vspace{-2mm}}
 {\thecontentslabel\hskip.5em}{}{\titlerule*[0.5pc]{.}\contentspage}
 
 % -----------------------------------------------------------------
