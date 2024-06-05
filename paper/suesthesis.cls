@@ -360,7 +360,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \RequirePackage{subfig}
 % 设置颜色
 \RequirePackage{color}
-\RequirePackage[table,xdraw]{xcolor}
+\RequirePackage[table]{xcolor}
 % \RequirePackage[table, cellspace]{colortbl}
 % \RequirePackage{usenames,dvipsnames}
 % 用于设置
