@@ -9,13 +9,18 @@
     \fancyhead[R]{\songti\xiaowu \quad 参考文献 }
 }
 \pagestyle{plain}
-
-% 设置参考文献
-\bibliographystyle{gbt7714-2015-author-year}
-\setlength{\bibsep}{0em}
-\renewcommand{\bibfont}{\zihao{5}}
 \addcontentsline{toc}{chapter}{参考文献}
-% 下面这个\nocite{*}命令指的是列举出所有的参考文献，即使没有被引用，也会列出来
-% \nocite{*}
-\bibliography{bib/refers}
+
+\begingroup
+    % 设置参考文献
+    \bibliographystyle{gbt7714-2015-numerical}
+    % \bibliographystyle{gbt7714-author-year}
+    \setlength{\bibsep}{0em}
+    \renewcommand{\bibfont}{\zihao{5}}
+    % 设置参考文献的行间距
+    \linespread{1.5}
+    % 下面这个命令指的是列举出所有的参考文献，即使没有被引用，也会列出来
+    \nocite{*}
+    \bibliography{bib/refers}
+\endgroup
 
